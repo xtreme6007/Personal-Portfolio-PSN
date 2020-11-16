@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 
 
 // this component will be used in the project container component to render each project 
-function ProjectCard(props) {
+const  ProjectCard = (props) => {
 
     return(
         <div>
