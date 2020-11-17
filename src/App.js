@@ -10,7 +10,7 @@ function App() {
       <NavBar />
       <div className="Container">
       <AboutMe />
-      
+      <ProjectContainer />
       </div>
 <Footer />
     </div>
