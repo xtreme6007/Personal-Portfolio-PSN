@@ -4,6 +4,7 @@ import Footer from './Components/Footer'
 import AboutMe from './Components/AboutMe'
 import ProjectContainer from './Components/ProjectContainer'
 
+
 function App() {
   return (
     <div className="Main">
@@ -12,9 +13,10 @@ function App() {
       <AboutMe />
       <ProjectContainer />
       </div>
+      
 <Footer />
     </div>
-  );
+  )
 }
 
 export default App;
