@@ -12,7 +12,7 @@ import Col from 'react-bootstrap/Col'
  function Footer()  {
     
 return (
-<div>
+<div style={{color: 'white'}}>
 
 <Navbar fixed="bottom" bg="dark" style={{height:'100px'}}> 
 Contact Me Here:
