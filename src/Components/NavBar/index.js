@@ -7,9 +7,9 @@ function NavBar() {
 
   return(  <>
     <Navbar  bg="dark" expand="lg">
-    <Navbar.Brand href="#home"><img src= "./assets/img/Brand-logo.png" alt="Brand logo"></img></Navbar.Brand>
-    <Nav.Link>About Me</Nav.Link>
-   <Nav.Link>Projects</Nav.Link>
+    <Navbar.Brand href="/about"><img src= "./assets/img/Brand-logo.png" alt="Brand logo"></img></Navbar.Brand>
+    <Nav.Link href="/about">About Me</Nav.Link>
+   <Nav.Link href="/projects">Projects</Nav.Link>
    <Nav.Link>Resume</Nav.Link>
   </Navbar>
 

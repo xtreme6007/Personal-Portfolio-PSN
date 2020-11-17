@@ -1,7 +1,5 @@
 .Main {
-  background: linear-gradient(to right, orange, rgb(224, 21, 99), purple);
-}
-.Container{
   height: 1000px;
- 
+  margin: 0px;
 }
+

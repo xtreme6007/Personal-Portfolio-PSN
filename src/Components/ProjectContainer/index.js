@@ -11,7 +11,7 @@ function ProjectContainer() {
 
 
     return (
-        <Container className="Main" >
+        <Container >
             <Row>
                 <Col>
                 <ProjectCard
