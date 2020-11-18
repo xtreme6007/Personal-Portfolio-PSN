@@ -11,23 +11,25 @@ import ParticlesBg from 'particles-bg'
 
 function App() {
   return (
-   
-    
+
+
     <Router>
-       <ParticlesBg type="lines" bg={true} />
-    <NavBar />
-      <div className="Container Main"> 
-       
-        
-          <Route exact path="#" component={Header} />
-          <Route exact path="#about" component={About} />
-          <Route exact path="#projects" component={Projects} />
-          
-        
+
+      <NavBar />
+      <ParticlesBg type="lines" bg={true} />
+
+      <div className="Container Main">
+
+
+        <Route exact path="/" component={Header} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+
+
         <Footer />
       </div>
     </Router>
-    
+
   )
 }
 
