@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio-PSN/static/css/main.fc16ab07.chunk.css",
-    "main.js": "/Personal-Portfolio-PSN/static/js/main.8d5de2f5.chunk.js",
-    "main.js.map": "/Personal-Portfolio-PSN/static/js/main.8d5de2f5.chunk.js.map",
+    "main.js": "/Personal-Portfolio-PSN/static/js/main.66a4b384.chunk.js",
+    "main.js.map": "/Personal-Portfolio-PSN/static/js/main.66a4b384.chunk.js.map",
     "runtime-main.js": "/Personal-Portfolio-PSN/static/js/runtime-main.21d06ac9.js",
     "runtime-main.js.map": "/Personal-Portfolio-PSN/static/js/runtime-main.21d06ac9.js.map",
     "static/css/2.1a02f21c.chunk.css": "/Personal-Portfolio-PSN/static/css/2.1a02f21c.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.119ef0d1.chunk.js",
     "static/css/main.fc16ab07.chunk.css",
-    "static/js/main.8d5de2f5.chunk.js"
+    "static/js/main.66a4b384.chunk.js"
   ]
 }
