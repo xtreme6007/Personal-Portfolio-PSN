@@ -1,0 +1,25 @@
+.Name {
+    color: white;
+
+    font-size: 100px;
+
+
+}
+.Header{
+    text-align:center;
+    color: white;
+   
+
+}
+.Description {
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+
+}
+
+.GitBtn {
+    margin-left: auto;
+    margin-right: auto;
+     
+    }
