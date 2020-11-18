@@ -6,12 +6,31 @@ import Navbar from 'react-bootstrap/Navbar'
 function NavBar() {
 
   return(  <>
-    <Navbar  bg="dark" expand="lg" style={{height: "100px"}} >
+    {/* <Navbar  bg="dark" expand="md" style={{height: "100px"}} id="responsive-navbar-nav">
     <Navbar.Brand href="/"><img src= "./assets/img/Brand-logo.png" alt="Brand logo" className="Brand-Img"></img></Navbar.Brand>
+    <NavBar.Collapse id="responsive-navbar-nav">
+
+    <Nav className="mr-auto">
+
     <Nav.Link href="/about">About Me</Nav.Link>
    <Nav.Link href="/projects">Projects</Nav.Link>
    <Nav.Link href="https://drive.google.com/file/d/1D9j8s4xTEDVxp3uK-k24L8wt8jOWRFQI/view?usp=sharing">Resume</Nav.Link>
-  </Navbar>
+   </Nav>
+   </NavBar.Collapse>
+  </Navbar> */}
+
+<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <Navbar.Brand href="/"><img src= "./assets/img/Brand-logo.png" alt="Brand logo" className="Brand-Img"></img></Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="mr-auto">
+    <Nav.Link href="/about">About Me</Nav.Link>
+   <Nav.Link href="/projects">Projects</Nav.Link>
+   <Nav.Link href="https://drive.google.com/file/d/1D9j8s4xTEDVxp3uK-k24L8wt8jOWRFQI/view?usp=sharing">Resume</Nav.Link>
+      
+    </Nav>
+  </Navbar.Collapse>
+</Navbar>
 
 
 
