@@ -5,7 +5,8 @@ import Navbar from 'react-bootstrap/Navbar'
 
 function NavBar() {
 
-  return(  <>
+  return(  
+  <>
    
 
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
