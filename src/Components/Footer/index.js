@@ -20,7 +20,7 @@ Contact Me Here:
     <Row>
 <Col><Nav.Link href="https://github.com/xtreme6007" className="mx-center"><FaGithub /></Nav.Link></Col>
 <Col><Nav.Link href="https://www.linkedin.com/in/preston-nichols-1aa72084/"><FaLinkedin /></Nav.Link></Col>
-<Col><Nav.Link  href={`mailto:"prestonnichols96@gmail.com"`}><FaMailBulk /></Nav.Link></Col>
+<Col><Nav.Link  href={'mailto:prestonnichols96@gmail.com'}><FaMailBulk /></Nav.Link></Col>
 
 </Row>
 

@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container'
 import ProjectCard from '../ProjectCard'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/col'
+import Jumbotron from 'react-bootstrap/Jumbotron'
 
 
 function ProjectContainer() {
@@ -11,7 +12,8 @@ function ProjectContainer() {
 
 
     return (
-        <Container >
+        <div className="ProjectContainer">
+        <Container>
             <Row>
                 <Col>
                 <ProjectCard
@@ -43,7 +45,7 @@ function ProjectContainer() {
 
             </Row>
         </Container>
-
+        </div>
 
 
 

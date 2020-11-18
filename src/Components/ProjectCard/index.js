@@ -3,12 +3,13 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
 
+
 // this component will be used in the project container component to render each project 
 const ProjectCard = (props) => {
 
   return (
-    <div style={{height:'100px'}}>
-      <Card style={{ width: '20rem'}}>
+    <div style={{height:'100px', color: "white", margin:"10px" }} >
+      <Card style={{ width: '20rem'}} bg="dark">
         <Card.Img variant="top" src={props.img} />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
