@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio-PSN/static/css/main.493cf594.chunk.css",
+    "main.css": "/Personal-Portfolio-PSN/static/css/main.290ed631.chunk.css",
     "main.js": "/Personal-Portfolio-PSN/static/js/main.5b8a824a.chunk.js",
     "main.js.map": "/Personal-Portfolio-PSN/static/js/main.5b8a824a.chunk.js.map",
     "runtime-main.js": "/Personal-Portfolio-PSN/static/js/runtime-main.21d06ac9.js",
@@ -12,14 +12,14 @@
     "static/js/3.08408348.chunk.js.map": "/Personal-Portfolio-PSN/static/js/3.08408348.chunk.js.map",
     "index.html": "/Personal-Portfolio-PSN/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/Personal-Portfolio-PSN/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.493cf594.chunk.css.map": "/Personal-Portfolio-PSN/static/css/main.493cf594.chunk.css.map",
+    "static/css/main.290ed631.chunk.css.map": "/Personal-Portfolio-PSN/static/css/main.290ed631.chunk.css.map",
     "static/js/2.a0e062a7.chunk.js.LICENSE.txt": "/Personal-Portfolio-PSN/static/js/2.a0e062a7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.21d06ac9.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.a0e062a7.chunk.js",
-    "static/css/main.493cf594.chunk.css",
+    "static/css/main.290ed631.chunk.css",
     "static/js/main.5b8a824a.chunk.js"
   ]
 }
