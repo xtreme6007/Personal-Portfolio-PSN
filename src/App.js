@@ -7,21 +7,22 @@ import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import ParticlesBg from 'particles-bg'
 import { HashRouter, Link, Switch } from "react-router-dom";
-
+import "./App.css"
 
 
 function App() {
   return (
     <>
-    <ParticlesBg type="lines" bg={true} />
+    
     <HashRouter basename='/'>
 
       <NavBar />
       
 
       <div>
-      
-<Switch>
+      <ParticlesBg type="lines" bg={true}  className="Particles"/>
+        <Switch>
+        
         <Route exact path="/" component={Header} />
         <Route exact path="/about" component={About} />
         <Route exact path="/projects" component={Projects} />

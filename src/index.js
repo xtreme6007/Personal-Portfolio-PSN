@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App  className="Main"/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

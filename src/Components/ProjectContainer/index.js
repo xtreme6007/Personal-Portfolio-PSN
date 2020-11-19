@@ -12,8 +12,8 @@ function ProjectContainer() {
 
 
     return (
-        <div className="ProjectContainer">
-        <Container>
+        
+        <Container className="ProjectContainer">
             <Row>
                 <Col>
                 <ProjectCard
@@ -48,7 +48,7 @@ function ProjectContainer() {
 
             </Row>
         </Container>
-        </div>
+       
 
 
 
