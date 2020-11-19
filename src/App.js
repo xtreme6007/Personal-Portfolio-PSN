@@ -6,6 +6,7 @@ import Projects from '../src/pages/Projects'
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import ParticlesBg from 'particles-bg'
+import { HashRouter, Link } from "react-router-dom";
 
 
 
@@ -13,7 +14,7 @@ function App() {
   return (
 
 
-    <Router>
+    <HashRouter basname='/'>
 
       <NavBar />
       <ParticlesBg type="lines" bg={true} />
@@ -28,7 +29,7 @@ function App() {
 
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
 
   )
 }
