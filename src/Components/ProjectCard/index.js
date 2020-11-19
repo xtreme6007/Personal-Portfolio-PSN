@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button'
 const ProjectCard = (props) => {
 
   return (
-    <div style={{ height: '120px', color: "white", margin: "10px" }} >
+    <div style={{ color: "white", margin: "10px" }} >
       <Card style={{ height: "350px", width: '20rem' }} bg="dark">
         <Card.Img variant="top" src={props.img} />
         <Card.Body>
