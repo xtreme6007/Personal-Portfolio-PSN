@@ -22,6 +22,7 @@ function ProjectContainer() {
                     description={"Going somewhere far? Meeting somebody close? Middle Point finds the perfect location for all occasions!"}
                     deployed={"https://xtreme6007.github.io/Middle-Point-TAPS/"}
                     repo={"https://rb.gy/m4oz1e"}
+                    tech={"JavaScript, jquery, Bootstrap, AJAX"}
                 />
                 </Col>
                 <Col>
@@ -31,6 +32,7 @@ function ProjectContainer() {
                     description={"This application is the basis for a company that provides car detailing services while a customer is shopping at malls, grocery stores, etc..."}
                     deployed={"https://shop-and-fix.herokuapp.com/"}
                     repo={"https://github.com/xtreme6007/shop-and-fix.git"}
+                    tech={"Handlebars, Node, Express, JavaScript, jquery, MySQL,Sequalize, JawsDB"}
                 />
                 </Col>
                 <Col>
@@ -40,6 +42,7 @@ function ProjectContainer() {
                     description={"This application is designed to track and compare your workout history. Use it to add, remove, and complete workouts as you go."}
                     deployed={"https://sleepy-forest-69419.herokuapp.com/"}
                     repo={"https://github.com/xtreme6007/WorkOut-psn.git"}
+                    tech={"MongoDB, Express, JavaScript"}
                 />
                 </Col>
 

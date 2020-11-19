@@ -8,16 +8,19 @@ import Button from 'react-bootstrap/Button'
 const ProjectCard = (props) => {
 
   return (
-    <div style={{height:'100px', color: "white", margin:"10px" }} >
-      <Card style={{ width: '20rem'}} bg="dark">
+    <div style={{ height: '120px', color: "white", margin: "10px" }} >
+      <Card style={{ height: "350px", width: '20rem' }} bg="dark">
         <Card.Img variant="top" src={props.img} />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
-          <Card.Text style={{height:'100px' }}>
-            {props.description}
+          <Card.Text style={{ height: '100px' }}>
+            {props.description}<br />
+
+  <span style={{color: "orange"}}>Technologies used: {props.tech}</span>
           </Card.Text>
-          <Button variant="primary" href={props.deployed}>Deployed Link</Button> <Button variant="primary" href={props.repo}>GitHub Repo</Button>
+          
         </Card.Body>
+        <div className="ml-auto mr-auto mb-5"><Button variant="primary" href={props.deployed} >Deployed Link</Button> <Button  variant="primary" href={props.repo}>GitHub Repo</Button></div>
       </Card>
 
 
