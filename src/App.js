@@ -12,15 +12,15 @@ import { HashRouter, Link } from "react-router-dom";
 
 function App() {
   return (
-
-
+    <>
+    <ParticlesBg type="lines" bg={true} />
     <HashRouter basename='/'>
 
       <NavBar />
-      <ParticlesBg type="lines" bg={true} />
+      
 
       <div className="Container Main">
-
+      
 
         <Route exact path="/" component={Header} />
         <Route exact path="/about" component={About} />
@@ -30,7 +30,7 @@ function App() {
         <Footer />
       </div>
     </HashRouter>
-
+</>
   )
 }
 
