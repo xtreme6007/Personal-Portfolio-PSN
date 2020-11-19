@@ -14,7 +14,7 @@ function App() {
   return (
 
 
-    <HashRouter basname='/'>
+    <HashRouter basename='/'>
 
       <NavBar />
       <ParticlesBg type="lines" bg={true} />
