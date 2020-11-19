@@ -1,7 +1,10 @@
 import React from 'react'
 import { Nav } from 'react-bootstrap'
 import Navbar from 'react-bootstrap/Navbar'
+
+import { Link } from "react-router-dom";
 // I will use the Component for the Navigation and brand logo plancement
+
 
 function NavBar() {
 
@@ -14,8 +17,8 @@ function NavBar() {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-    <Nav.Link href="/Personal-Portfolio-PSN/about">About Me</Nav.Link>
-   <Nav.Link href="/Personal-Portfolio-PSN/projects">Projects</Nav.Link>
+    <Nav.Link><Link to = "/about" >About Me</Link></Nav.Link>
+   <Nav.Link href="/projects">Projects</Nav.Link>
    <Nav.Link href="https://drive.google.com/file/d/1D9j8s4xTEDVxp3uK-k24L8wt8jOWRFQI/view?usp=sharing">Resume</Nav.Link>
       
     </Nav>
