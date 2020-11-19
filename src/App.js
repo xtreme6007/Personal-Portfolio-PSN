@@ -20,7 +20,7 @@ function App() {
       
 
       <div>
-      <ParticlesBg type="lines" bg={true}  className="Particles"/>
+     
         <Switch>
         
         <Route exact path="/" component={Header} />
