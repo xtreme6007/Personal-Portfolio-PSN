@@ -17,7 +17,7 @@ function ProjectContainer() {
             <Row>
                 <Col>
                 <ProjectCard
-                    img={"./assets/img/MiddlePoint.png"}
+                    img={"assets/img/MiddlePoint.png"}
                     title={"Middle Point"}
                     description={"Going somewhere far? Meeting somebody close? Middle Point finds the perfect location for all occasions!"}
                     deployed={"https://xtreme6007.github.io/Middle-Point-TAPS/"}
@@ -26,7 +26,7 @@ function ProjectContainer() {
                 </Col>
                 <Col>
                 <ProjectCard
-                    img={"./assets/img/White-Glove-Detailing.png"}
+                    img={"assets/img/White-Glove-Detailing.png"}
                     title={"White Glove Detailing"}
                     description={"This application is the basis for a company that provides car detailing services while a customer is shopping at malls, grocery stores, etc..."}
                     deployed={"https://shop-and-fix.herokuapp.com/"}
@@ -35,7 +35,7 @@ function ProjectContainer() {
                 </Col>
                 <Col>
                 <ProjectCard
-                    img={"./assets/img/WorkEm.png"}
+                    img={"assets/img/WorkEm.png"}
                     title={"Work-Em-Out"}
                     description={"This application is designed to track and compare your workout history. Use it to add, remove, and complete workouts as you go."}
                     deployed={"https://sleepy-forest-69419.herokuapp.com/"}
