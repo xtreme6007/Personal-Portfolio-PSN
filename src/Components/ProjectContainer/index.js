@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container'
 import ProjectCard from '../ProjectCard'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/col'
-import Jumbotron from 'react-bootstrap/Jumbotron'
 
+import './style.css'
 
 function ProjectContainer() {
 
