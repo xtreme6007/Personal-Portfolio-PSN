@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
 
   return (
     <div style={{ color: "white", margin: "10px" }} >
-      <Card style={{ height: "350px", width: '20rem' }} bg="dark">
+      <Card style={{ height: "500px", width: '20rem' }} bg="dark">
         <Card.Img variant="top" src={props.img} />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>

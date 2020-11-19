@@ -6,7 +6,7 @@ import Projects from '../src/pages/Projects'
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import ParticlesBg from 'particles-bg'
-import { HashRouter, Link } from "react-router-dom";
+import { HashRouter, Link, Switch } from "react-router-dom";
 
 
 
@@ -19,13 +19,13 @@ function App() {
       <NavBar />
       
 
-      <div className="Container Main">
+      <div>
       
-
+<Switch>
         <Route exact path="/" component={Header} />
         <Route exact path="/about" component={About} />
         <Route exact path="/projects" component={Projects} />
-
+        </Switch>
 
         <Footer />
       </div>
