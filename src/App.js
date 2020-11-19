@@ -19,7 +19,7 @@ function App() {
       <NavBar />
       
 
-      <div>
+      <div className="mb-5">
      
         <Switch>
         
