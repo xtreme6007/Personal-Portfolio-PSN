@@ -50,9 +50,9 @@ N/A
 
 ## Screen shots
 
-![screenshot](public/assets/imgs/HeaderScreen.png)
-![screenshot](public/assets/imgs/AboutMeScreen.png)
-![screenshot](public/assets/imgs/ProjectScreen.png)
+![screenshot](public/assets/img/HeaderScreen.png)
+![screenshot](public/assets/img/AboutMeScreen.png)
+![screenshot](public/assets/img/ProjectScreen.png)
 
 
 
