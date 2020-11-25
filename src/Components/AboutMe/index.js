@@ -11,7 +11,7 @@ function AboutMe () {
         <div className="Header">
         <img src ="./assets/img/PortPic.jpeg" className="PortPic" alt ="Portfolio pic" />
         <h1 className="Header">A Little About Me</h1>
-            <p>I am a Full-Stack Web Developer with a background in customer service and management. Recognized as a loyal, hardworking, and resourceful problem solver. Excellent client relationship building skills with a dedication to quality. Graduate of Full-Stack Web Development at Southern Methodist University. With a MERN stack focused skillset i also have experince in many other languages and technologies.</p>
+            <p className="mb-4">I am a Full-Stack Web Developer with a background in customer service and management. Recognized as a loyal, hardworking, and resourceful problem solver. Excellent client relationship building skills with a dedication to quality. Graduate of Full-Stack Web Development at Southern Methodist University. With a MERN stack focused skillset i also have experince in many other languages and technologies.</p>
 
         </div>
 
