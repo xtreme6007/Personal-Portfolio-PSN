@@ -7,7 +7,7 @@ function About() {
     return(
     <div>
        
-       <ParticlesBg type="lines" bg={true}  className="Particles"/>
+      
         <AboutMe />
 
      
