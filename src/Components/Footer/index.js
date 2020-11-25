@@ -14,7 +14,7 @@ import Col from 'react-bootstrap/Col'
 return (
 <div style={{color: 'white'}}>
 
-<Navbar fixed="bottom" bg="dark" style={{height:'100px'}}> 
+<Navbar fixed="bottom" bg="dark" style={{height:'100px'}} className="mt-auto"> 
 Contact Me Here:
 <Nav className="mr-auto">
     <Row>
