@@ -17,7 +17,7 @@ function ProjectContainer() {
             <Row>
             <Col>
                 <ProjectCard
-                    img={"assets/img/SpaceStocks.png"}
+                    img={"assets/img/SpaceScreen.png"}
                     title={"Space Stocks"}
                     description={"This application is designed to simplify the stock market and make recomendations on buying or selling a stock."}
                     deployed={"https://space-stocks.herokuapp.com/"}
