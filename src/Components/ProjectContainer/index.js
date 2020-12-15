@@ -15,6 +15,17 @@ function ProjectContainer() {
         
         <Container className="ProjectContainer">
             <Row>
+            <Col>
+                <ProjectCard
+                    img={"assets/img/SpaceStocks.png"}
+                    title={"Space Stocks"}
+                    description={"This application is designed to simplify the stock market and make recomendations on buying or selling a stock."}
+                    deployed={"https://space-stocks.herokuapp.com/"}
+                    repo={"https://github.com/xtreme6007/Snake_Stocks"}
+                    tech={"MongoDB, Express, Node, React, JavaScript, JSX"}
+                />
+                </Col>
+                
                 <Col>
                 <ProjectCard
                     img={"assets/img/MiddlePoint.png"}
@@ -45,6 +56,7 @@ function ProjectContainer() {
                     tech={"MongoDB, Express, JavaScript"}
                 />
                 </Col>
+                
 
             </Row>
         </Container>
