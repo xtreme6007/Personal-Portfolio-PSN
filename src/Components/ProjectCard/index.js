@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
           <Card.Text style={{ height: '100px' }}>
             {props.description}<br />
 
-  <span style={{color: "orange"}}>Technologies used: {props.tech}</span>
+  <span style={{color: "orange", marginTop:"1px"}}>Technologies used: {props.tech}</span>
           </Card.Text>
           
         </Card.Body>
