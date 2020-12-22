@@ -16,11 +16,11 @@ const ProjectCard = (props) => {
           <Card.Text style={{ height: '100px' }}>
             {props.description}<br />
 
-  <span style={{color: "orange", marginTop:"1px"}}>Technologies used: {props.tech}</span>
+  <span style={{color: "orange"}}>Technologies used: {props.tech}</span>
           </Card.Text>
           
         </Card.Body>
-        <div className="ml-auto mr-auto mb-5"><Button variant="primary" href={props.deployed} >Deployed Link</Button> <Button  variant="primary" href={props.repo}>GitHub Repo</Button></div>
+        <div className="ml-auto mr-auto mb-5 mt-5"><Button variant="primary" href={props.deployed} >Deployed Link</Button> <Button  variant="primary" href={props.repo}>GitHub Repo</Button></div>
       </Card>
 
 
