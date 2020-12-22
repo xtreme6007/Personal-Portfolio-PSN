@@ -38,6 +38,18 @@ function ProjectContainer() {
                 </Col>
                 <Col>
                 <ProjectCard
+                    img={"assets/img/RandoScreen.png"}
+                    title={"Rando-Raunt"}
+                    description={"My girlfreind and I often see restraunts around the DFW area that we just simply never knew about. Our list started to grow so I built an application to help the indecsive decide on something new. Feel free to use it and add your favorite restraunt!"}
+                    deployed={"https://rando-raunt.herokuapp.com/"}
+                    repo={"https://github.com/xtreme6007/Rando-Raunt"}
+                    tech={"MongoDB, Express, React, Node, JavaScript, JSX"}
+                />
+                </Col>
+                </Row>
+                <Row>
+                <Col>
+                <ProjectCard
                     img={"assets/img/White-Glove-Detailing.png"}
                     title={"White Glove Detailing"}
                     description={"This application is the basis for a company that provides car detailing services while a customer is shopping at malls, grocery stores, etc..."}
@@ -46,7 +58,7 @@ function ProjectContainer() {
                     tech={"Handlebars, Node, Express, JavaScript, jquery, MySQL,Sequalize, JawsDB"}
                 />
                 </Col>
-                <Col>
+                {/* <Col>
                 <ProjectCard
                     img={"assets/img/WorkEm.png"}
                     title={"Work-Em-Out"}
@@ -55,7 +67,7 @@ function ProjectContainer() {
                     repo={"https://github.com/xtreme6007/WorkOut-psn.git"}
                     tech={"MongoDB, Express, JavaScript"}
                 />
-                </Col>
+                </Col> */}
                 
 
             </Row>
