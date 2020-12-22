@@ -40,7 +40,7 @@ function ProjectContainer() {
                 <ProjectCard
                     img={"assets/img/RandoScreen.png"}
                     title={"Rando-Raunt"}
-                    description={"My girlfreind and I often see restraunts around the DFW area that we just simply never knew about. Our list started to grow so I built an application to help the indecsive decide on something new. Feel free to use it and add your favorite restraunt!"}
+                    description={"My girlfreind and I often see restraunts around the DFW area that we just simply never knew about. Our list started to grow so I built an application to help decide on something new."}
                     deployed={"https://rando-raunt.herokuapp.com/"}
                     repo={"https://github.com/xtreme6007/Rando-Raunt"}
                     tech={"MongoDB, Express, React, Node, JavaScript, JSX"}
