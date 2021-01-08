@@ -15,7 +15,7 @@ class Header extends Component {
           <div className="Header">
               <span className="Name">Preston Nichols</span>
               <p className="Description">Full Stack Web Developer with a strive for learning and a passion for programing that has left me with no option but to be successful in the industry.</p>
-              <a href="https://github.com/xtreme6007"><Button variant="dark" size="lg" > <FaGithub />Github</Button></a>
+              <a href="https://github.com/xtreme6007"><Button variant="dark" size="lg" > <FaGithub /> Github</Button></a>
               </div>
               
          
